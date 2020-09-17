@@ -1,17 +1,17 @@
 <?php
 /**
- * Plugin Name: Admin Color Schemes
- * Plugin URI: http://wordpress.org/plugins/admin-color-schemes/
- * Description: Even more admin color schemes
- * Version: 2.3
- * Requires PHP: 5.3
- * Author: WordPress Core Team
- * Author URI: http://wordpress.org/
+ * Plugin Name: Elementor Admin Color Schemes
+ * Plugin URI: https://github.com/DarioSantacruz/elementor-admin-color-schemes
+ * Description: Color schemes based on Elementor's brand
+ * Version: 0.0.1
+ * Requires PHP: 7.0
+ * Author: Dario Santacruz
+ * Author URI: https://dariosantacruz.com/
  * Domain Path: /languages
  */
 
 /*
-Copyright 2020 Kelly Dwan, Mel Choyce, Dave Whitley, Kate Whitley
+2020 Dario Santacruz
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -28,11 +28,11 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-namespace ACS_Color_Schemes;
+namespace ELEMENTOR_Color_Schemes;
 use function add_action;
 use function wp_admin_css_color;
 
-const VERSION = '2.3';
+const VERSION = '0.0.1';
 
 /**
  * Helper function to get stylesheet URL.
@@ -48,6 +48,18 @@ function get_color_url( $color ) {
  * Register color schemes.
  */
 function add_colors() {
+	wp_admin_css_color(
+		'elementor',
+		__( 'Elementor Blue', 'admin_schemes' ),
+		get_color_url( 'elementor-blue' ),
+		array( '#010038', '#46F2B6', '#5ef2be' ),
+		array(
+			'base' => '#F0F2F1',
+			'focus' => '#fff',
+			'current' => '#fff',
+		)
+	);
+	/*
 	wp_admin_css_color(
 		'vinyard',
 		__( 'Vinyard', 'admin_schemes' ),
@@ -132,17 +144,6 @@ function add_colors() {
 		)
 	);
 
-	wp_admin_css_color(
-		'seashore',
-		__( 'Seashore', 'admin_schemes' ),
-		get_color_url( 'seashore' ),
-		array( '#F8F6F1', '#d5cdad', '#7D6B5C', '#456a7f' ),
-		array(
-			'base' => '#533C2F',
-			'focus' => '#F8F6F1',
-			'current' => '#F8F6F1',
-		)
-	);
 
 	wp_admin_css_color(
 		'kirk',
@@ -167,18 +168,7 @@ function add_colors() {
 			'current' => '#151923',
 		)
 	);
-
-	wp_admin_css_color(
-		'adderley',
-		__( 'Adderley', 'admin-color-schemes' ),
-		get_color_url( 'adderley' ),
-		array( '#bde7f0', '#216bce', '#1730e5' ),
-		array(
-			'base' => '#f1f3f3',
-			'focus' => '#fff',
-			'current' => '#fff',
-		)
-	);
+	*/
 }
 
 add_action( 'admin_init', __NAMESPACE__ . '\add_colors' );

@@ -1,8 +1,8 @@
 {
-	"name": "Admin-Color-Schemes",
-	"slug": "admin-color-schemes",
-	"description": "WordPress dashboard color schemes",
-	"version": "0.1.0",
+	"name": "Elementor-Admin-Color-Schemes",
+	"slug": "elementor-admin-color-schemes",
+	"description": "WordPress dashboard color schemes with Elemementor's colors",
+	"version": "0.0.1",
 	"devDependencies": {
 		"grunt": "1.1.0",
 		"grunt-contrib-watch": "1.1.0",
