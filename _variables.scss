@@ -25,12 +25,10 @@ $form-checked: #7e8993 !default;
 // admin menu & admin-bar
 
 $menu-text: $text-color !default;
+$menu-text-display-name: $text-color !default;
 $menu-icon: $icon-color !default;
 $menu-background: $base-color !default;
 
-/*$menu-highlight-text: $text-color !default;
-$menu-highlight-icon: $text-color !default;
-$menu-highlight-background: $highlight-color !default;*/
 $menu-highlight-text: $base-color !default;
 $menu-highlight-icon: $base-color !default;
 $menu-highlight-background: $highlight-color !default;

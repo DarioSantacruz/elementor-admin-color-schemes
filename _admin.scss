@@ -452,7 +452,7 @@ ul#adminmenu > li.current > a.current:after {
 }
 
 #wpadminbar #wp-admin-bar-user-info .display-name {
-	color: $menu-text;
+	color: $menu-text-display-name !important;
 }
 
 #wpadminbar #wp-admin-bar-user-info a:hover .display-name {
