@@ -110,7 +110,7 @@ function add_colors() {
 	wp_admin_css_color(
 		'elementor_light_pink	',
 		__( 'Elementor Pink', 'admin_schemes' ),
-		get_color_url( 'elementor-dark-pink' ),
+		get_color_url( 'elementor-light-pink' ),
 		array( '#FF7BE5', '#92003B'),
 		array(
 			'base' => '#F0F2F1',
