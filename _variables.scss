@@ -12,13 +12,14 @@ $notification-color: #d54e21 !default;
 
 // global
 
-$body-background: #f1f1f1 !default;
+$body-background: lime !default;
 
 $link: #0073aa !default;
 $link-focus: lighten( $link, 10% ) !default;
 
 $button-color: $highlight-color !default;
-$button-text-color: $text-color !default;
+//$button-text-color: $text-color !default;
+$button-text-color: $base-color !default;
 
 $form-checked: #7e8993 !default;
 
@@ -28,12 +29,15 @@ $menu-text: $text-color !default;
 $menu-icon: $icon-color !default;
 $menu-background: $base-color !default;
 
-$menu-highlight-text: $text-color !default;
+/*$menu-highlight-text: $text-color !default;
 $menu-highlight-icon: $text-color !default;
+$menu-highlight-background: $highlight-color !default;*/
+$menu-highlight-text: $base-color !default;
+$menu-highlight-icon: $base-color !default;
 $menu-highlight-background: $highlight-color !default;
 
 $menu-current-text: $menu-highlight-text !default;
-$menu-current-icon: $menu-highlight-icon !default;
+$menu-current-icon: $menu-highlight-text !default;// $menu-highlight-icon !default;
 $menu-current-background: $menu-highlight-background !default;
 
 $menu-submenu-text: mix( $base-color, $text-color, 30% ) !default;

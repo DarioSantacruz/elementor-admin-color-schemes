@@ -1,5 +1,21 @@
 $base-color: #010051;
 $highlight-color: #46F2B6;
-$notification-color: #5ef2be;
+$notification-color: #46F2B6;
+$body-background: mix($highlight-color, #FFF, 10%);
+
+$link: $base-color;
+
+$icon-color: #fefcf7;
+$menu-highlight-icon: $base-color;
+$menu-current-icon: $base-color;
+
+$menu-bubble-text: #fefcf7;
+$menu-bubble-current-background: #010051;
+$menu-bubble-current-text: $menu-bubble-text;
+
+$menu-submenu-background: #0F0F33;
+$menu-submenu-background-alt: mix(#0F0F33, #1B1A5E, 60%);
+
+$form-checked: #010051;
 
 @import "../admin";

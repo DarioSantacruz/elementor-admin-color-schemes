@@ -4,11 +4,12 @@
 	"description": "WordPress dashboard color schemes with Elemementor's colors",
 	"version": "0.0.1",
 	"devDependencies": {
-		"grunt": "1.1.0",
-		"grunt-contrib-watch": "1.1.0",
-		"grunt-rtlcss": "2.0.2",
-		"grunt-sass": "3.1.0",
-		"matchdep": "2.0.0",
+		"grunt": "^1.1.0",
+		"grunt-contrib-jshint": "^2.1.0",
+		"grunt-contrib-watch": "^1.1.0",
+		"grunt-rtlcss": "^2.0.2",
+		"grunt-sass": "^3.1.0",
+		"matchdep": "^2.0.0",
 		"node-sass": "4.13.1",
 		"stylelint": "^13.2.1",
 		"stylelint-config-wordpress": "^16.0.0"
