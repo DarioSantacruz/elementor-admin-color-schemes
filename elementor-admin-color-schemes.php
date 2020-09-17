@@ -32,7 +32,7 @@ namespace ELEMENTOR_Color_Schemes;
 use function add_action;
 use function wp_admin_css_color;
 
-const VERSION = '0.0.1';
+const VERSION = '0.0.3';
 
 /**
  * Helper function to get stylesheet URL.
@@ -50,9 +50,9 @@ function get_color_url( $color ) {
  */
 function add_colors() {
 	wp_admin_css_color(
-		'elementor_blue',
+		'elementor_dark_blue',
 		__( 'Elementor Blue', 'admin_schemes' ),
-		get_color_url( 'elementor-blue' ),
+		get_color_url( 'elementor-dark-blue' ),
 		array( '#010038', '#46F2B6' ),
 		array(
 			'base' => '#F0F2F1',
@@ -62,9 +62,9 @@ function add_colors() {
 	);
 
 	wp_admin_css_color(
-		'elementor_green',
+		'elementor_light_green',
 		__( 'Elementor Green', 'admin_schemes' ),
-		get_color_url( 'elementor-green' ),
+		get_color_url( 'elementor-light-green' ),
 		array( '#46F2B6', '#010038' ),
 		array(
 			'base' => '#F0F2F1',
@@ -74,9 +74,9 @@ function add_colors() {
 	);
 
 	wp_admin_css_color(
-		'elementor_creame',
+		'elementor_light_creame',
 		__( 'Elementor Creame', 'admin_schemes' ),
-		get_color_url( 'elementor-creame' ),
+		get_color_url( 'elementor-light-creame' ),
 		array( '#FFBC7D', '#FF3700' ),
 		array(
 			'base' => '#F0F2F1',
@@ -86,9 +86,9 @@ function add_colors() {
 	);
 
 	wp_admin_css_color(
-		'elementor_orange',
+		'elementor_dark_orange',
 		__( 'Elementor Orange', 'admin_schemes' ),
-		get_color_url( 'elementor-orange' ),
+		get_color_url( 'elementor-dark-orange' ),
 		array( '#FF3700', '#FFBC7D' ),
 		array(
 			'base' => '#F0F2F1',
@@ -97,9 +97,9 @@ function add_colors() {
 		)
 	);
 	wp_admin_css_color(
-		'elementor_purple',
+		'elementor_dark_purple',
 		__( 'Elementor Purple', 'admin_schemes' ),
-		get_color_url( 'elementor-purple' ),
+		get_color_url( 'elementor-dark-purple' ),
 		array( '#92003B', '#FF7BE5'),
 		array(
 			'base' => '#F0F2F1',
@@ -108,9 +108,9 @@ function add_colors() {
 		)
 	);
 	wp_admin_css_color(
-		'elementor_pink	',
+		'elementor_light_pink	',
 		__( 'Elementor Pink', 'admin_schemes' ),
-		get_color_url( 'elementor-pink' ),
+		get_color_url( 'elementor-dark-pink' ),
 		array( '#FF7BE5', '#92003B'),
 		array(
 			'base' => '#F0F2F1',

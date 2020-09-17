@@ -71,7 +71,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="color"]:focu
 /* Admin Menu */
 #adminmenuback, #adminmenuwrap, #adminmenu { background: #46F2B6; }
 
-#adminmenu a { color: #010051; }
+#adminmenu a { color: #46F2B6; }
 
 #adminmenu div.wp-menu-image:before { color: #010051; }
 
@@ -115,9 +115,9 @@ ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu > li.current > a.curre
 #collapse-button:hover, #collapse-button:focus { color: #46F2B6; }
 
 /* Admin Bar */
-#wpadminbar { color: #010051; background: #46F2B6; }
+#wpadminbar { color: #46F2B6; background: #46F2B6; }
 
-#wpadminbar .ab-item, #wpadminbar a.ab-item, #wpadminbar > #wp-toolbar span.ab-label, #wpadminbar > #wp-toolbar span.noticon { color: #010051; }
+#wpadminbar .ab-item, #wpadminbar a.ab-item, #wpadminbar > #wp-toolbar span.ab-label, #wpadminbar > #wp-toolbar span.noticon { color: #46F2B6; }
 
 #wpadminbar .ab-icon, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before, #wpadminbar .ab-item:after { color: #010051; }
 
@@ -145,7 +145,7 @@ ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu > li.current > a.curre
 /* Admin Bar: search */
 #wpadminbar #adminbarsearch:before { color: #010051; }
 
-#wpadminbar > #wp-toolbar > #wp-admin-bar-top-secondary > #wp-admin-bar-search #adminbarsearch input.adminbar-input:focus { color: #010051; background: #67f4c3; }
+#wpadminbar > #wp-toolbar > #wp-admin-bar-top-secondary > #wp-admin-bar-search #adminbarsearch input.adminbar-input:focus { color: #46F2B6; background: #67f4c3; }
 
 /* Admin Bar: recovery mode */
 #wpadminbar #wp-admin-bar-recovery-mode { color: #010051; background-color: #010051; }
@@ -157,7 +157,7 @@ ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu > li.current > a.curre
 /* Admin Bar: my account */
 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img { border-color: #67f4c3; background-color: #67f4c3; }
 
-#wpadminbar #wp-admin-bar-user-info .display-name { color: #010051; }
+#wpadminbar #wp-admin-bar-user-info .display-name { color: #46F2B6; }
 
 #wpadminbar #wp-admin-bar-user-info a:hover .display-name { color: #46F2B6; }
 
@@ -186,9 +186,9 @@ ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu > li.current > a.curre
 
 .theme-section.current, .theme-filter.current { border-bottom-color: #46F2B6; }
 
-body.more-filters-opened .more-filters { color: #010051; background-color: #46F2B6; }
+body.more-filters-opened .more-filters { color: #46F2B6; background-color: #46F2B6; }
 
-body.more-filters-opened .more-filters:before { color: #010051; }
+body.more-filters-opened .more-filters:before { color: #46F2B6; }
 
 body.more-filters-opened .more-filters:hover, body.more-filters-opened .more-filters:focus { background-color: #010051; color: #46F2B6; }
 

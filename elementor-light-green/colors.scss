@@ -19,7 +19,7 @@ $menu-submenu-background-alt: scale-color($base-color, $lightness: +15%);
 
 $form-checked: $highlight-color;
 
-$menu-text: $icon-color;
+$menu-text: $base-color;
 $menu-submenu-focus-text: $base-color;
 
 @import "../admin";
