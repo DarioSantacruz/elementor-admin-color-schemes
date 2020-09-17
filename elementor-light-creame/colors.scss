@@ -1,0 +1,24 @@
+$base-color: #FFBC7D;
+$highlight-color: #FF3700;
+$notification-color: #FF3700;
+$body-background: mix($highlight-color, #FFF, 10%);
+
+$link: $highlight-color;
+
+$icon-color: $notification-color;
+$menu-highlight-icon: $base-color;
+$menu-current-icon: $base-color;
+
+$menu-bubble-text: $notification-color;
+$menu-bubble-current-background: $base-color;
+$menu-bubble-current-text: scale-color($base-color, $lightness: +15%);
+
+$menu-submenu-background: scale-color($base-color, $lightness: -15%);
+$menu-submenu-background-alt: scale-color($base-color, $lightness: +15%);
+
+$form-checked: $highlight-color;
+
+$menu-text: $icon-color;
+$menu-submenu-focus-text: $base-color;
+
+@import "../admin";
